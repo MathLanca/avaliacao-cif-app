@@ -6,7 +6,7 @@ import { AvaliacaoForm, AvaliacaoList, AvaliacaoDetail } from './Avaliacao';
 import { PacienteList, PacienteEdit, PacienteAdd } from './Paciente';
 import { MeuPerfil } from './MeuPerfil';
 import Navegacao from './Componentes/Navegacao';
-import { LoginForm, verificaLogin, CadastrarForm } from './Auth';
+import { LoginForm, verificaLogin, CadastrarForm } from './Authentication';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

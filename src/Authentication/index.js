@@ -89,6 +89,14 @@ export class CadastrarForm extends Component {
                                 <Label>Senha</Label>
                                 <Input type="password" name="password" onChange={this.onChange} />
                             </FormGroup>
+                            <FormGroup>
+                                <Label>Função</Label>
+                                <select>
+                                    <option></option>
+                                    <option>Fisioterapeuta</option>
+                                    <option>Paciente</option>
+                                </select>
+                            </FormGroup>
                             <Button size="sm" className="float-right" color="primary" type="submit">Cadastrar</Button>
                         </Form>
                     ) : null}
